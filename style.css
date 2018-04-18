@@ -1,0 +1,139 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #FFf;
+}
+
+#addContact{
+    background-color: #ff0;
+    margin: 0px 0px 0px 0px;
+}
+
+.heading {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    background-color: #2af; 
+    text-align: center;
+    margin: 0px 0 0px 0;
+    padding: 0 0 5px 0;
+}
+
+#contactForm{
+    background-color: #33aa99;
+    width : 100%;
+}
+
+.label{
+    width: 50%;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-right: 5px;
+    font-size: 30px;
+    margin: 5px 0 5px 5px;
+}
+
+.inputField{
+    
+    width: 50%;
+    height: 20px;
+    font-size: 20px;
+
+}
+
+#createNewButton{
+    background-color: #008Cff;
+    width: 150px;
+    text-decoration: underline;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    padding: 0px 0 5px 0;
+    margin: 0px 0 10px 5px;
+    text-align: left;
+}
+.createNewButton{
+    background-color: #33aa99;
+    width: 100%;
+}
+
+#createNewButton:hover {
+    background-color: #009911;
+    color: white;
+}
+
+#myContacts{
+    margin: 10px 0 0px 0;
+    background-color: #fff;
+   
+}
+
+.myContactsHeading{
+    background-color: #2af; 
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0 5px 0px;
+    padding: 5px 0px 5px 5px;
+}
+
+#newContactList{
+    background-color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px 0 0px 0;
+    padding: 5px 0px 5px 0px;
+}
+
+#deleteButton{
+    background-color: #F20;
+    width: 150px;
+    text-decoration: underline;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+
+#deleteButton:hover {
+    background-color: #009911;
+    color: white;
+}
+
+
+#editButton{
+    background-color: #008Cff;
+    width: 150px;
+    text-decoration: underline;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+
+#editButton:hover {
+    background-color: #009911;
+    color: white;
+}
+
+#contactTable {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-spacing: 5px;
+    width: 50%;
+    background-color: #11aa22;
+    border: 1px solid black;
+
+}
+
+#tableHeading {
+    border-spacing: 10px;
+    border: 1px solid black;
+}
+
+#tableData {
+    border: 1px solid black;
+}
+
